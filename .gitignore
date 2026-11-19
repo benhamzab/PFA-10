@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime
+*.log
+*.pid
+
+# Base de données locale
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Sauvegardes
+*.bak
+*.bak_*
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
